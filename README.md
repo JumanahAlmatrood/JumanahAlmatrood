@@ -1,16 +1,19 @@
-## Hi there 👋
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Jumanah Almatrood - software engineer, machine learning, security"/>
+</p>
 
-<!--
-**JumanahAlmatrood/JumanahAlmatrood** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="assets/about.svg" width="100%" alt="About me"/>
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="assets/skills.svg" width="100%" alt="Skills"/>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <a href="https://linkedin.com/in/jumanah-almatrood"><img src="assets/btn-linkedin.svg" alt="LinkedIn"/></a>
+</p>
+
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt="Thanks for visiting"/>
+</p>
