@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="48" viewBox="0 0 900 48"><style>
+  .blink{animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .tw{animation:tw 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  .tw2{animation:tw 2.4s ease-in-out .8s infinite;transform-box:fill-box;transform-origin:center}
+  .tw3{animation:tw 2.4s ease-in-out 1.6s infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes tw{0%,100%{transform:scale(.6);opacity:.5}50%{transform:scale(1.1);opacity:1}}
+  .load{animation:load 3.2s steps(16) infinite}
+  @keyframes load{0%{width:0}85%,100%{width:336px}}
+  .bob{animation:bob 2s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+</style><defs>
+  <linearGradient id="tb" x1="0" x2="1" y1="0" y2="0">
+    <stop offset="0" stop-color="#ff4fa3"/><stop offset="1" stop-color="#7c3aed"/>
+  </linearGradient>
+  <linearGradient id="tb2" x1="0" x2="1" y1="0" y2="0">
+    <stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#60a5fa"/>
+  </linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <rect width="24" height="24" fill="#c7dcff"/>
+    <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1"/>
+  </pattern>
+  <pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffc2e2"/>
+    <rect x="0" y="0" width="2" height="2" fill="#ffffff" fill-opacity=".7"/>
+  </pattern>
+  
+</defs><rect x="0" y="4" width="900" height="40" fill="#f6f0ff" stroke="#2a1745" stroke-width="2"/><path d="M1 6H899" stroke="#fff" stroke-width="2"/><rect x="8" y="10" width="86" height="28" fill="#ffc2e2"/>
+<path d="M8 38V10H94" fill="none" stroke="#ffffff" stroke-width="2"/>
+<path d="M8 38H94V10" fill="none" stroke="#7b6a9c" stroke-width="2"/><rect x="18" y="18" width="2" height="2" fill="#ff4fa3"/><rect x="20" y="18" width="2" height="2" fill="#ff4fa3"/><rect x="24" y="18" width="2" height="2" fill="#ff4fa3"/><rect x="26" y="18" width="2" height="2" fill="#ff4fa3"/><rect x="16" y="20" width="2" height="2" fill="#ff4fa3"/><rect x="18" y="20" width="2" height="2" fill="#ff4fa3"/><rect x="20" y="20" width="2" height="2" fill="#ff4fa3"/><rect x="22" y="20" width="2" height="2" fill="#ff4fa3"/><rect x="24" y="20" width="2" height="2" fill="#ff4fa3"/><rect x="26" y="20" width="2" height="2" fill="#ff4fa3"/><rect x="28" y="20" width="2" height="2" fill="#ff4fa3"/><rect x="16" y="22" width="2" height="2" fill="#ff4fa3"/><rect x="18" y="22" width="2" height="2" fill="#ff4fa3"/><rect x="20" y="22" width="2" height="2" fill="#ff4fa3"/><rect x="22" y="22" width="2" height="2" fill="#ff4fa3"/><rect x="24" y="22" width="2" height="2" fill="#ff4fa3"/><rect x="26" y="22" width="2" height="2" fill="#ff4fa3"/><rect x="28" y="22" width="2" height="2" fill="#ff4fa3"/><rect x="18" y="24" width="2" height="2" fill="#ff4fa3"/><rect x="20" y="24" width="2" height="2" fill="#ff4fa3"/><rect x="22" y="24" width="2" height="2" fill="#ff4fa3"/><rect x="24" y="24" width="2" height="2" fill="#ff4fa3"/><rect x="26" y="24" width="2" height="2" fill="#ff4fa3"/><rect x="20" y="26" width="2" height="2" fill="#ff4fa3"/><rect x="22" y="26" width="2" height="2" fill="#ff4fa3"/><rect x="24" y="26" width="2" height="2" fill="#ff4fa3"/><rect x="22" y="28" width="2" height="2" fill="#ff4fa3"/><text x="38" y="29" font-family="Tahoma, Verdana, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#2a1745">start</text><rect x="106" y="10" width="140" height="28" fill="#f6f0ff"/>
+<path d="M106 38V10H246" fill="none" stroke="#ffffff" stroke-width="2"/>
+<path d="M106 38H246V10" fill="none" stroke="#7b6a9c" stroke-width="2"/><text x="116" y="29" font-family="Tahoma, Verdana, 'Segoe UI', sans-serif" font-size="12" fill="#2a1745">about_me.txt</text><rect x="256" y="10" width="140" height="28" fill="#f6f0ff"/>
+<path d="M256 38V10H396" fill="none" stroke="#ffffff" stroke-width="2"/>
+<path d="M256 38H396V10" fill="none" stroke="#7b6a9c" stroke-width="2"/><text x="266" y="29" font-family="Tahoma, Verdana, 'Segoe UI', sans-serif" font-size="12" fill="#2a1745">skills.exe</text><rect x="700" y="10" width="190" height="28" fill="#ffffff"/>
+<path d="M700 38V10H890" fill="none" stroke="#7b6a9c" stroke-width="2"/>
+<path d="M700 38H890V10" fill="none" stroke="#ffffff" stroke-width="2"/><text x="795" y="29" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="13" fill="#7c3aed">thanks for visiting</text></svg>

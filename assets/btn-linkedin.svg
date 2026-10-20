@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="44" viewBox="0 0 190 44"><style>
+  .blink{animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .tw{animation:tw 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  .tw2{animation:tw 2.4s ease-in-out .8s infinite;transform-box:fill-box;transform-origin:center}
+  .tw3{animation:tw 2.4s ease-in-out 1.6s infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes tw{0%,100%{transform:scale(.6);opacity:.5}50%{transform:scale(1.1);opacity:1}}
+  .load{animation:load 3.2s steps(16) infinite}
+  @keyframes load{0%{width:0}85%,100%{width:336px}}
+  .bob{animation:bob 2s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+</style><defs>
+  <linearGradient id="tb" x1="0" x2="1" y1="0" y2="0">
+    <stop offset="0" stop-color="#ff4fa3"/><stop offset="1" stop-color="#7c3aed"/>
+  </linearGradient>
+  <linearGradient id="tb2" x1="0" x2="1" y1="0" y2="0">
+    <stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#60a5fa"/>
+  </linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <rect width="24" height="24" fill="#c7dcff"/>
+    <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1"/>
+  </pattern>
+  <pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffc2e2"/>
+    <rect x="0" y="0" width="2" height="2" fill="#ffffff" fill-opacity=".7"/>
+  </pattern>
+  
+</defs><rect x="4" y="4" width="180" height="34" fill="#c7dcff"/>
+<path d="M4 38V4H184" fill="none" stroke="#ffffff" stroke-width="2"/>
+<path d="M4 38H184V4" fill="none" stroke="#7b6a9c" stroke-width="2"/><rect x="8" y="8" width="172" height="26" fill="none" stroke="#2a1745" stroke-width="1" stroke-dasharray="2 2"/><text x="94" y="27" text-anchor="middle" font-family="Tahoma, Verdana, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#2a1745">LinkedIn</text></svg>
