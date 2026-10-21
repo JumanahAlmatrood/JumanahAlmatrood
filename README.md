@@ -21,6 +21,10 @@
 <td width="50%"><a href="https://github.com/JxTechStudio-org/bayanuk"><img src="assets/project-bayanuk.svg" width="100%" alt="Bayanuk"/></a></td>
 <td width="50%"><a href="https://github.com/YeAljohani/Intrusion-Detection-System"><img src="assets/project-Intrusion-Detection-System.svg" width="100%" alt="Intrusion Detection System"/></a></td>
 </tr>
+<tr>
+<td width="50%"><a href="https://github.com/JumanahAlmatrood"><img src="assets/project-mastawdak.svg" width="100%" alt="Mastawdak (private repository)"/></a></td>
+<td width="50%"><a href="https://github.com/JumanahAlmatrood"><img src="assets/project-oad-cafes.svg" width="100%" alt="OAD Cafe Analytics (private repository)"/></a></td>
+</tr>
 </table>
 
 <p align="center">
