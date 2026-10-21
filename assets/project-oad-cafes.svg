@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="220" viewBox="0 0 440 220"><style>
+  .blink{animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .tw{animation:tw 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  .tw2{animation:tw 2.4s ease-in-out .8s infinite;transform-box:fill-box;transform-origin:center}
+  .tw3{animation:tw 2.4s ease-in-out 1.6s infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes tw{0%,100%{transform:scale(.6);opacity:.5}50%{transform:scale(1.1);opacity:1}}
+  .load{animation:load 3.2s steps(16) infinite}
+  @keyframes load{0%{width:0}85%,100%{width:336px}}
+  .bob{animation:bob 2s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+</style><defs>
+  <linearGradient id="tb" x1="0" x2="1" y1="0" y2="0">
+    <stop offset="0" stop-color="#ff4fa3"/><stop offset="1" stop-color="#7c3aed"/>
+  </linearGradient>
+  <linearGradient id="tb2" x1="0" x2="1" y1="0" y2="0">
+    <stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#60a5fa"/>
+  </linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <rect width="24" height="24" fill="#c7dcff"/>
+    <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1"/>
+  </pattern>
+  <pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse">
+    <rect width="8" height="8" fill="#ffc2e2"/>
+    <rect x="0" y="0" width="2" height="2" fill="#ffffff" fill-opacity=".7"/>
+  </pattern>
+  
+</defs><rect x="12" y="12" width="420" height="200" fill="#2a1745" fill-opacity=".85"/><rect x="6" y="6" width="420" height="200" fill="#f6f0ff" stroke="#2a1745" stroke-width="2"/><path d="M8 204V8H424" fill="none" stroke="#fff" stroke-width="2"/><rect x="10" y="10" width="412" height="24" fill="url(#tb2)"/><text x="18" y="27" font-family="Tahoma, Verdana, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#fff">oad-cafes</text><rect x="352" y="14" width="18" height="16" fill="#f6f0ff"/>
+<path d="M352 30V14H370" fill="none" stroke="#ffffff" stroke-width="2"/>
+<path d="M352 30H370V14" fill="none" stroke="#7b6a9c" stroke-width="2"/><rect x="357" y="25" width="8" height="2" fill="#2a1745"/><rect x="374" y="14" width="18" height="16" fill="#f6f0ff"/>
+<path d="M374 30V14H392" fill="none" stroke="#ffffff" stroke-width="2"/>
+<path d="M374 30H392V14" fill="none" stroke="#7b6a9c" stroke-width="2"/><rect x="378" y="17" width="10" height="9" fill="none" stroke="#2a1745" stroke-width="1.5"/><rect x="378" y="17" width="10" height="2" fill="#2a1745"/><rect x="396" y="14" width="18" height="16" fill="#f6f0ff"/>
+<path d="M396 30V14H414" fill="none" stroke="#ffffff" stroke-width="2"/>
+<path d="M396 30H414V14" fill="none" stroke="#7b6a9c" stroke-width="2"/><path d="M401 18L409 26M409 18L401 26" stroke="#2a1745" stroke-width="2"/><g shape-rendering="crispEdges"><rect x="24" y="52" width="26" height="8" fill="#7ee0a0" stroke="#2a1745" stroke-width="2"/><rect x="24" y="58" width="56" height="38" fill="#7ee0a0" stroke="#2a1745" stroke-width="2"/><rect x="26" y="60" width="52" height="6" fill="#fff" fill-opacity=".5"/></g><text x="96" y="66" font-family="'Courier New', Courier, monospace" font-size="15" font-weight="700" fill="#2a1745">OAD - Cafe Analytics  [team]</text><text x="96" y="90" font-family="Tahoma, Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#2a1745">Cafe analytics platform. I built</text><text x="96" y="109" font-family="Tahoma, Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#2a1745">sales forecasting (Prophet + RF),</text><text x="96" y="128" font-family="Tahoma, Verdana, 'Segoe UI', sans-serif" font-size="12.5" fill="#2a1745">events and promotions pages.</text><rect x="24" y="160" width="384" height="30" fill="#ffffff"/>
+<path d="M24 190V160H408" fill="none" stroke="#7b6a9c" stroke-width="2"/>
+<path d="M24 190H408V160" fill="none" stroke="#ffffff" stroke-width="2"/><text x="36" y="180" font-family="'Courier New', Courier, monospace" font-size="12.5" fill="#7c3aed">&gt; django / prophet / firebase</text><g shape-rendering="crispEdges"><rect x="300" y="173" width="12" height="9" fill="#ff4fa3" stroke="#2a1745" stroke-width="1.5"/><path d="M302.5 173V169.5H309.5V173" fill="none" stroke="#2a1745" stroke-width="2"/></g><text x="318" y="181" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="700" fill="#ff4fa3">private</text></svg>
