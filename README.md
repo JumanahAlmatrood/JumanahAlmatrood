@@ -11,7 +11,7 @@
 <table>
 <tr>
 <td width="50%"><a href="https://github.com/JumanahAlmatrood/STC-Data-Analysis-Tasks"><img src="assets/project-STC-Data-Analysis-Tasks.svg" width="100%" alt="STC Data Analysis"/></a></td>
-<td width="50%"><a href="https://github.com/JumanahAlmatrood/Communicate-Data-Findings"><img src="assets/project-Communicate-Data-Findings.svg" width="100%" alt="Communicate Data Findings"/></a></td>
+<td width="50%"><a href="https://github.com/JumanahAlmatrood?tab=repositories&q=udacity"><img src="assets/project-udacity-nanodegree.svg" width="100%" alt="Udacity Data Analyst Nanodegree: view all 3 projects"/></a></td>
 </tr>
 <tr>
 <td width="50%"><a href="https://github.com/JxTechStudio-org/bayanuk"><img src="assets/project-bayanuk.svg" width="100%" alt="Bayanuk"/></a></td>
