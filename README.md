@@ -3,10 +3,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/JumanahAlmatrood"><img src="assets/about.svg" width="100%" alt="About me"/></a>
-</p>
-
-<p align="center">
   <a href="https://github.com/JumanahAlmatrood"><img src="assets/skills.svg" width="100%" alt="Skills"/></a>
 </p>
 
